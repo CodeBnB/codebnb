@@ -1,6 +1,6 @@
-# Code Marketplace
+# CodeBnB
 
-A modern, developer-friendly marketplace for code, scripts, themes, and digital assets.
+The Airbnb for code - a modern, developer-friendly marketplace for code, scripts, themes, and digital assets.
 
 ## Vision
 

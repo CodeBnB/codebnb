@@ -1,8 +1,8 @@
-# Developer-Friendly Code Marketplace - Project Documentation
+# CodeBnB - Project Documentation
 
 ## Vision
 
-Create a modern, developer-centric marketplace for code, scripts, themes, and digital assets that prioritizes fairness, transparency, and exceptional user experience.
+Create "Airbnb for code" - a modern, developer-centric marketplace for code, scripts, themes, and digital assets that prioritizes fairness, transparency, and exceptional user experience.
 
 ## Core Principles
 

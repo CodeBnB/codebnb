@@ -1,4 +1,4 @@
-// Code Marketplace Configuration Template
+// CodeBnB Configuration Template
 // ============================================
 // 
 // SAFE TO COMMIT TO GIT
@@ -49,14 +49,14 @@ module.exports = {
 
   // Application Settings
   app: {
-    name: 'Code Marketplace',
+    name: 'CodeBnB',
     port: process.env.PORT || 3000,
     environment: process.env.NODE_ENV || 'development',
     baseUrl: process.env.NODE_ENV === 'production' 
-      ? 'https://yourmarketplace.com' 
+      ? 'https://codebnb.org' 
       : 'http://localhost:3000',
     corsOrigin: process.env.NODE_ENV === 'production'
-      ? ['https://yourmarketplace.com']
+      ? ['https://codebnb.org']
       : '*',
     maxUploadSize: '50mb',              // Maximum file upload size
     sessionSecret: 'PLACEHOLDER_SESSION_SECRET' // For session management
@@ -66,8 +66,8 @@ module.exports = {
   email: {
     provider: 'sendgrid',               // 'sendgrid', 'smtp', or 'ses'
     apiKey: 'PLACEHOLDER_EMAIL_API_KEY', // SendGrid API key
-    fromAddress: 'noreply@yourmarketplace.com',
-    fromName: 'Code Marketplace',
+    fromAddress: 'noreply@codebnb.org',
+    fromName: 'CodeBnB',
     templates: {
       welcome: 'PLACEHOLDER_WELCOME_TEMPLATE_ID',
       purchase: 'PLACEHOLDER_PURCHASE_TEMPLATE_ID',
