@@ -17,15 +17,29 @@ Create a fair, transparent, and efficient platform that serves the developer com
 ## Documentation
 
 - [Full Project Documentation](./docs/project-documentation.md)
+- [Security Framework](./docs/security-framework.md) 🔒
 - [Technical Architecture](./docs/architecture.md) (Coming Soon)
 - [API Documentation](./docs/api.md) (Coming Soon)
+
+## Security-First Approach
+
+🔒 **This project implements security from day one**, not as an afterthought.
+
+- **Credential separation**: Template-based config system (never commit secrets)
+- **Secure deployment**: Automated deployment with permission management
+- **Environment isolation**: Separate dev/staging/production configurations
+- **Payment security**: Stripe integration with webhook verification
+- **Database security**: Limited-privilege users and connection pooling
+- **API security**: JWT authentication with rate limiting
+
+See our [Security Framework](./docs/security-framework.md) for complete details.
 
 ## Getting Started
 
 ### For Contributors
 
 1. Clone the repository
-2. Read the project documentation
+2. Read the project documentation and security framework
 3. Check out open issues or create new ones
 4. Submit pull requests
 
