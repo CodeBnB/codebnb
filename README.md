@@ -1,6 +1,8 @@
 # CodeBnB
 
-The Airbnb for code - a modern, developer-friendly marketplace for code, scripts, themes, and digital assets.
+Where developers **bring and buy** code - a modern, fair marketplace for scripts, themes, and digital assets.
+
+*Like Airbnb revolutionized travel, we're revolutionizing code sharing.*
 
 ## Vision
 
